@@ -1,0 +1,10 @@
+{
+  // Configuração para publicar o site como Worker com arquivos estáticos na Cloudflare.
+  // O "npm run build" gera a pasta dist, e o "npx wrangler deploy" publica essa pasta.
+  "name": "dakura-motos",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

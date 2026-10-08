@@ -13,5 +13,9 @@ Cada alteração enviada para o GitHub publica o site de novo automaticamente.
 ## Mudar textos, telefone ou horário
 Quase tudo fica em `src/data.js`. As fotos ficam em `src/assets/`.
 
+## Publicar como Worker (Workers & Pages > Worker conectado ao Git)
+Build command: `npm run build`. Deploy command: `npx wrangler deploy`.
+O arquivo `wrangler.jsonc` já aponta para a pasta `dist`.
+
 ## Rodar no computador
 Com o Node.js instalado: `npm install` e depois `npm run dev`.
